@@ -1,0 +1,6 @@
+regions:
+    blogs:
+        url: '/api/collection/Blogs/all/10/0/{"display_date":-1}'
+        args: []
+        partial: 'collections/blogs.hbs'
+        type: 'Collection'

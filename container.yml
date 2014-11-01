@@ -1,0 +1,13 @@
+imports:
+    - 'vendor/opine/framework/container.yml'
+
+services:
+    controller:
+        class:     'Controller'
+        arguments: ['@model', '@view']
+    model:
+        class:     'Model'
+        arguments: ['@db']
+    view:
+        class:     'View'
+        arguments: ['@layout']

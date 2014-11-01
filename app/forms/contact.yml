@@ -1,0 +1,6 @@
+regions:
+    contact:
+        url: '/api/form/Contact'
+        args: []
+        partial: 'forms/contact.hbs'
+        type: 'Form'

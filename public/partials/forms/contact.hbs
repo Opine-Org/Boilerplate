@@ -1,0 +1,34 @@
+<form action="/form/contact" method="post" class="admin-form form-horizontal" data-xhr="true">
+    <div class="row error-container" style="display: none"> <span class="span12 alert alert-error errors"></span> </div>
+    <div class="row notice-container" style="display: none"> <span class="span12 alert alert-success notices"></span> </div>
+    <div class="M_row">
+        <div class="equal">
+            <div class="column">
+                <label>First Name</label>
+                {{{first_name}}}
+            </div>
+            <div class="column">
+                <label>Email</label>
+                {{{email}}}
+            </div>
+        </div>
+        <div class="equal fright">
+            <div class="column">
+                <label>Last Name</label>
+                {{{last_name}}}
+            </div>
+            <div class="column">
+                <label>Phone</label>
+                {{{phone}}}
+            </div>
+        </div>
+        <div class="full">
+            <label>Message</label>
+            {{{message}}}
+        </div>    
+        {{{id}}}
+        <div class="full" style="margin-top:10px;">
+            <input type="submit" class="btn purple_btn" value="SUBMIT" />
+        </div>
+    </div>
+</form>

@@ -1,0 +1,14 @@
+<ul>
+	{{#each blogs}}
+        <li>
+            <em><a href="{{path}}">{{{ImageResize image width="156" height="130"}}}</a></em>
+            <div class="right">
+                <small>{{{MongoDate display_date}}}</small>
+                <a href="{{path}}">{{title}}</a>
+                <p>{{description}}</p>
+            </div>
+        </li>
+    {{/each}}
+</ul>
+<p>&nbsp;</p>
+{{{PaginationBootstrap pagination metadata}}}

@@ -1,0 +1,18 @@
+{
+    "name": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "opine/framework": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "forms",
+            "managers",
+            "collections",
+            "controllers",
+            "models",
+            "views",
+            "Route.php"
+        ]
+    }
+}

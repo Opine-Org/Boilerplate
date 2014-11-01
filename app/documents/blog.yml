@@ -1,0 +1,6 @@
+regions:
+    blog:
+        url: '/api/collection/Blogs/bySlug/:slug'
+        args: []
+        partial: 'documents/blog.hbs'
+        type: 'Document'
