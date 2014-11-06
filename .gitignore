@@ -5,4 +5,5 @@
 /public/css/fields
 /public/js/fields
 /public/*/Manager
-/public/storage/*
+/public/storage
+/public/imagecache
