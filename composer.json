@@ -6,6 +6,7 @@
     },
     "autoload": {
         "classmap": [
+            "helpers",
             "forms",
             "managers",
             "collections",
