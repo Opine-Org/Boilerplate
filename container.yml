@@ -11,3 +11,6 @@ services:
     view:
         class:     'View'
         arguments: ['@layout']
+    helperHeader:
+        class:     'Helper\Header'
+        arguments: ['@layout']
