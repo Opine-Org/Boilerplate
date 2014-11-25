@@ -1,7 +1,6 @@
 /composer.lock
 /vendor
 /cache
-/bundles/Manager
 /public/css/fields
 /public/js/fields
 /public/*/Manager

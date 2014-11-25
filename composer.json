@@ -6,14 +6,14 @@
     },
     "autoload": {
         "classmap": [
-            "helpers",
-            "forms",
-            "managers",
-            "collections",
-            "controllers",
-            "models",
-            "views",
-            "Route.php"
+            "app/controllers",
+            "app/helpers",
+            "app/models",
+            "app/views",
+            "app/Route.php",
+            "config/collections",
+            "config/forms",
+            "config/managers"
         ]
     }
 }
