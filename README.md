@@ -11,5 +11,5 @@ composer install
 mongo admin -u admin -p admin < vendor/opine/build/static/database.js
 bin/opine check
 bin/opine build
-more vhost.conf
+more server/vhost.conf
 ```

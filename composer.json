@@ -2,6 +2,7 @@
     "name": "project",
     "minimum-stability": "dev",
     "require": {
+        "php": ">=5.5.0",
         "opine/framework": "dev-master"
     },
     "autoload": {
@@ -15,5 +16,8 @@
             "config/forms",
             "config/managers"
         ]
-    }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.32"
+    },
 }
