@@ -1,10 +1,12 @@
 <?php
 namespace Helper;
 
+use Opine\Interfaces\Layout as LayoutInterface;
+
 class Header {
     private $layout;
 
-    public function __construct ($layout) {
+    public function __construct (LayoutInterface $layout) {
         $this->layout = $layout;
     }
 

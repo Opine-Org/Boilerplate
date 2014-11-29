@@ -1,0 +1,12 @@
+{
+  "name": "project",
+  "dependencies": {
+    "semantic": "1.0.0",
+    "jquery": ">=2.1.1",
+    "foo-comment": "FriendsOfOpine/Comment",
+    "foo-account": "FriendsOfOpine/Account",
+    "opine-field": "Opine-Org/Field#2.0.2",
+    "opine-form": "Opine-Org/Form#1.5.3",
+    "opine-semantic-cm": "Opine-Org/Semantic-CM#1.5.2"
+  }
+}

@@ -2,22 +2,24 @@
     "name": "project",
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.0",
-        "opine/framework": "dev-master"
+        "opine/framework": "dev-master",
+        "foo/sso": "dev-master",
+        "foo/comment": "dev-master",
+        "foo/account": "dev-master"
     },
     "autoload": {
         "classmap": [
+            "config/forms",
+            "config/managers",
+            "config/collections",
             "app/controllers",
-            "app/helpers",
             "app/models",
             "app/views",
-            "app/Route.php",
-            "config/collections",
-            "config/forms",
-            "config/managers"
+            "app/helpers",
+            "app/Route.php"
         ]
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.32"
-    },
+    }
 }

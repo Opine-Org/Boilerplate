@@ -1,8 +1,7 @@
 /composer.lock
 /vendor
 /cache
-/public/css/fields
-/public/js/fields
-/public/*/Manager
 /public/storage
 /public/imagecache
+/node_modules
+/bower_components
