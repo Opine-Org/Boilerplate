@@ -9,10 +9,10 @@ __With Vagrant__
 1. Install VirtualBox
 2. Install Vagrant
 3. From the terminal:
-  1. mkdir project
-  2. wget https://raw.githubusercontent.com/Opine-Org/Boilerplate/master/server/Vagrantfile
-  3. wget https://raw.githubusercontent.com/Opine-Org/Boilerplate/master/server/provision.sh
-  3. vagrant up
+  1. ```mkdir project```
+  2. ```curl -s -O https://raw.githubusercontent.com/Opine-Org/Boilerplate/master/server/Vagrantfile```
+  3. ```curl -s -O https://raw.githubusercontent.com/Opine-Org/Boilerplate/master/server/provision.sh```
+  3. ```vagrant up```
 4. Add opine-project.dev to your local hosts file
 5. visit http://opine-project.dev:8080 in you browser
 
