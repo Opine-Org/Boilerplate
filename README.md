@@ -2,7 +2,18 @@
 Getting Started
 ===============
 
-Boilerplate for creating Opine-PHP APIs, Websites and Applications.
+Boilerplate for creating Opine-PHP projects.
+
+__With Vagrant__
+
+1. Install VirtualBox
+2. Install Vagrant
+3. Run the following commands from your terminal: ```wget vagrant file```
+4. Then, in termal also run: ```vagrant up```
+4. Add opine-project.dev to your local hosts file
+5. visit http://opine-project.dev:8080 in you browser
+
+__Without Vagrant__
 
 ```sh
 mkdir project
