@@ -40,7 +40,7 @@ sudo /etc/init.d/php5-fpm start || true
 
 # seed project
 cd /var/www/project && curl -L https://github.com/Opine-Org/Boilerplate/tarball/master | tar zx --strip-components=1 && composer install
-sudo mongo admin < /home/webuser/project/vendor/opine/build/static/database.js
+sudo mongo admin < /var/www/project/vendor/opine/build/static/database.js
 OPINE_ENV=default && export OPINE_ENV && cd /var/www/project && ./bin/opine build
 
 exit 0
