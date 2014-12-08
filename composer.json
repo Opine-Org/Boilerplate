@@ -9,8 +9,6 @@
     },
     "autoload": {
         "classmap": [
-            "config/forms",
-            "config/managers",
             "config/collections",
             "app/controllers",
             "app/models",
