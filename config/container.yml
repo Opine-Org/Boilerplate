@@ -1,16 +1,16 @@
 imports:
-    - 'vendor/opine/framework/config/container.yml'
+    - ../vendor/opine/framework/config/container.yml
 
 services:
     controller:
-        class:     'Controller'
-        arguments: ['@model', '@view']
+        class:     Controller
+        arguments: [@model, @view]
     model:
-        class:     'Model'
-        arguments: ['@db']
+        class:     Model
+        arguments: [@db]
     view:
-        class:     'View'
-        arguments: ['@layout']
+        class:     View
+        arguments: [@layout]
     helperHeader:
-        class:     'Helper\Header'
-        arguments: ['@layout']
+        class:     Helper\Header
+        arguments: [@layout]
