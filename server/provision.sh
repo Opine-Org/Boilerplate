@@ -24,7 +24,6 @@ sudo sed -i 's/www\-data/vagrant/' /etc/nginx/nginx.conf
 sudo sed -i 's/www\-data/vagrant/' /etc/php5/fpm/pool.d/www.conf
 mkdir /var/www/storage
 mkdir /var/www/imagecache
-sudo ln -s /var/www/project/server/local.vhost.conf /etc/nginx/sites-enabled/vhost.conf
 sudo /etc/init.d/nginx stop || true
 sudo /etc/init.d/nginx start || true
 sudo /etc/init.d/elasticsearch stop || true
@@ -39,6 +38,7 @@ sudo /etc/init.d/php5-fpm start || true
 # seed project
 chown vagrant /var/www --recursive && chgrp vagrant /var/www --recursive
 cd /var/www/project && curl -L https://github.com/Opine-Org/Boilerplate/tarball/master | tar zx --strip-components=1
+sudo ln -s /var/www/project/server/local.vhost.conf /etc/nginx/sites-enabled/vhost.conf
 chown vagrant /var/www --recursive && chgrp vagrant /var/www --recursive
 cd /var/www/project && composer install
 chown vagrant /var/www --recursive && chgrp vagrant /var/www --recursive
